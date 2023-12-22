@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+h1{
+    font-size: 4rem;
+    font-family: 'Rubik', sans-serif;
+}
+h2{
+    font-size: 3rem;
+    font-family: 'Rubik', sans-serif;
+}
+h3{
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.first-div{
+    width: 100%;
+    height: 100vh;
+    background: url("./bg.png");
+    background-size: cover;
+}
+.second-div{
+    width: 100%;
+    height: 100vh;
+    background: url("./bg2.png");
+    background-size: cover;
+}
+p{
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+}
